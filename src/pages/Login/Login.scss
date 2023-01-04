@@ -1,0 +1,19 @@
+#remember-me, .sign-in-button {
+  cursor: pointer;
+}
+.sign-in-content {
+  position: relative;
+}
+.errorMessage {
+  bottom    : 0.5rem;
+  color     : red;
+  left      : 30%;
+  position  : absolute;
+}
+
+.sign-in-button:hover {
+  background-color    : #fff;
+  border-color        : #00bc77;
+  color               : #00bc77;
+  transition          : all 0.2s ease-in-out;
+}
